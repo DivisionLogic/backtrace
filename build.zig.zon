@@ -1,0 +1,20 @@
+.{
+    .name = "backtrace",
+    .version = "1.0.0",
+    .dependencies = .{
+        //.example = .{
+        //    .url = "https://example.com/foo.tar.gz",
+        //    .hash = "...",
+        //    .path = "foo",
+        //    .lazy = false,
+        //},
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+        "assets",
+    },
+}
